@@ -1,0 +1,27 @@
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    box-shadow: 1px 1px 5px 5px #00f3ff;
+}
+input:hover, input:active {
+    background-color: khaki;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(60, 214, 200);;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+button:hover,
+button:active {
+    background-color: rgb(60, 214, 86, 0.85);;
+}
