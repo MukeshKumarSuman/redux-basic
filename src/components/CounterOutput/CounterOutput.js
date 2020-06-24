@@ -6,5 +6,4 @@ const counterOutput = (props) => (
         Current Counter: {props.value}
     </div>
 );
-
 export default counterOutput;

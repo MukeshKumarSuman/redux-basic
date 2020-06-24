@@ -1,7 +1,8 @@
 import * as Constants from '../constants';
 
 const intialState = {
-    counter: 0
+    counter: 0,
+    name: 'Mukesh'
 }
 const reducer = (state = intialState, action) => {
     switch (action.type) {

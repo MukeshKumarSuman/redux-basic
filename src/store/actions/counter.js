@@ -1,4 +1,4 @@
-import * as Constants from './constants';
+import * as Constants from '../constants';
 
 export const increment = () => {
     return {
@@ -33,16 +33,7 @@ export const multiply = value => {
     }
 }
 
-export const storeResult = result => {
-    return {
-        type: Constants.STORE_RESULT,
-        result
-    }
-}
 
-export const deleteResult = id => {
-    return {
-        type: Constants.DELETE_RESULT,
-        id
-    }
-}
+
+
+    
